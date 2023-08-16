@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bar{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.row_1{
+    background-color: blueviolet;
+    width: 20%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    transform: translate(-100%);
+    transition: 0.6s;
+}
+
+.showbar{
+    transform: translate(0%) !important 
+   
+}
+
+.sidebar{
+   text-align: center;
+   font-size: 30px;
+   text-decoration: none;
+   
+   
+
+}
+
+.sidebar li{
+   margin-top: 10px;
+   
+}
+
+.sidebar li a{
+    text-decoration: none;
+    color: darkorange;
+}
+
+.social{
+    margin-top: 60px;
+    text-align: center;
+   
+}
+.social li{
+    display: inline-block;
+   margin-left: 10px;
+   font-size: 30px;
+   margin-right: 10px;
+}
+
+.social li a{
+   color: darkorange; 
+}
